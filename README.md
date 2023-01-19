@@ -3,8 +3,8 @@ Factor Memory Network and Graph Neural Network Based Personalized Course Recomme
 
 Published in dasfaa2023
 
-#### Dataset Descriptions:
- We provide a subset of the dataset as a format example for processing code. However, we cannot publish the original dataset due to privacy protection.
+#### Data Descriptions:
+ Due to privacy protection, we give format requirements for input data rather than dataset.
 ### Steps for Runing the Code
 #### Environment Prerequisites:
 * python3.6
