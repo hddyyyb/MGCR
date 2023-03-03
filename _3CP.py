@@ -211,7 +211,7 @@ def load_data(dataset_str):
     
     plt.savefig(os.path.join(path + dataset + '\\' + "_BPrerequisiteCourses1-1"+ '.pdf'), bbox_inches='tight')
     
-    plt.savefig("C:\\Users\\孙劲桐\\Desktop\\_BPrerequisiteCourses1-1.pdf", bbox_inches='tight')
+    plt.savefig("C:\\Users\\...\\Desktop\\_BPrerequisiteCourses1-1.pdf", bbox_inches='tight')
     plt.close()
     nodelistCC = []  
     for node_i in GCCgraph.nodes():
@@ -611,7 +611,6 @@ class inference(tf.keras.layers.Layer):
         erase_signal = self.erase(S_C_FPNSS)
         add_signal = self.add(S_C_FPNSS)
 
-        print('------------------ let me see see ---------------------')
 
 
         trainstu = tf.expand_dims(SFforM0[train_index[0]], axis=0)
